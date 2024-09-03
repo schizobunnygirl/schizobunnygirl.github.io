@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22252c;
+    color: rgb(202, 203, 204);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Section Styles */
+.head {margin-top: 15px;}
+
+.head, .main {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(77, 77, 77);
+    padding: 10px;
+}
+
+/* Head Styles */
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;   
+    border-radius: 100px;
+}
+h1 {text-align: center;}
+.smallasstext {
+    font-size: 9px;
+    text-align: center;
+}
+.socials {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main Styles */
+.sec-head {text-align: center;}
